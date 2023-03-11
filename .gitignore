@@ -1,0 +1,37 @@
+# Ignore Composer packages.
+/vendor/
+
+# User uploaded and system generated files.
+/web/wp-content/cache/
+/web/wp-content/uploads/
+/web/wp-content/plugins/kint-debugger/
+
+# Ignore local configuration files.
+/.env
+/web/wp-config-local.php
+
+# PHP STORM #
+.idea
+
+
+/web/wp-config.php
+.DS_Store
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+!wp-includes/**/*.gz
+
+# Logs and databases #
+######################
+*.log
+*.sql
